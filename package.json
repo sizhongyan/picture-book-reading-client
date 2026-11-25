@@ -1,0 +1,13 @@
+{
+  "name": "picture-book-companion-fixed",
+  "private": true,
+  "version": "2.0.0",
+  "scripts": {
+    "test": "node tests/page_turn_test.js",
+    "test:switch": "node tests/book_switch_test.js",
+    "capture": "node tests/capture_interface.js"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}
